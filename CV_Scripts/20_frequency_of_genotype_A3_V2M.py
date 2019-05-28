@@ -6,7 +6,7 @@ import re
 SNPfile=open('2_aa_Vc_replicate3.fasta','r') # open the file '2_aa_Vc_replicate3.fasta' which contains all protein sequences of the Vc population replicate 3 during the phase II evolution
 SNPline=SNPfile.readlines()
 
-newfile="20_"+"frequency_of_genotype_A3_V2M.csv"# create a new file for reading data
+newfile="20_"+"frequency_of_genotype_A3_V2M.csv"# create a new file for writing data
 openfile=open(newfile,"w")
 
 #ref indicates the YFP (ancestor) cDNA sequence
