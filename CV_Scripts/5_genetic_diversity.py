@@ -7,7 +7,7 @@ FileName = sys.argv[1]
 SNPfile=open(FileName,'r')
 SNPline=SNPfile.readlines()
 
-newfile="5_"+FileName[0:-6]+"_genetic_diversity.csv" # create a new file for reading data
+newfile="5_"+FileName[0:-6]+"_genetic_diversity.csv" # create a new file for writing data
 openfile=open(newfile,"w")
 
 #the following codes are used for grouping sequences based on generation 
