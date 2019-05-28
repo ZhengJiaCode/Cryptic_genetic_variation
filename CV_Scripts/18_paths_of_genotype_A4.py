@@ -8,7 +8,7 @@ FileName = sys.argv[1]
 SNPfile=open(FileName,'r')
 SNPline=SNPfile.readlines()
 
-newfile="18_"+FileName[0:-6]+"_paths_of_genotype_A4.csv"# create a new file for reading data
+newfile="18_"+FileName[0:-6]+"_paths_of_genotype_A4.csv"# create a new file for writing data
 openfile=open(newfile,"w")
 
 #ref indicates the YFP (ancestor) protein sequence
